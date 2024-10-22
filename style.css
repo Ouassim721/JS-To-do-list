@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#bbf, #66f);
+  height: 100vh;
+}
+.title {
+  color: white;
+}
+.guide {
+  font-size: 16px;
+}
+#first {
+  color: rgb(255, 196, 136);
+}
+#second {
+  color: #5f5;
+}
+#third {
+  color: #335;
+}
+.inputField input {
+  border: 1px solid #88f;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+}
+.inputField input::placeholder {
+  color: #555;
+}
+
+.addList {
+  width: 700px;
+  margin: auto;
+}
+#enter {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+  background-color: #66f;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75 ease;
+  font-weight: normal;
+}
+
+#enter:hover {
+  background-color: #02798f;
+  color: #ffcd5d;
+}
+
+ul {
+  text-align: left;
+  margin-top: 20px;
+}
+
+li {
+  list-style: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid #025f70;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #bbf;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5 ease;
+}
+
+li:hover {
+  background: #76cfe0;
+}
+
+li > button {
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right;
+  color: #025f70;
+  font-weight: 800;
+}
+
+input {
+  border-radius: 5px;
+  min-width: 65%;
+  padding: 5px;
+  border: none;
+}
+
+.done {
+  background: #51df70 !important;
+  color: #00891e;
+}
+
+.delete {
+  display: none;
+}
